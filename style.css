@@ -1,0 +1,54 @@
+.info {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 3rem;
+  margin:  5%;
+  color: #FEF2BF;
+  text-align: center;
+
+}
+
+body{
+    background-color: #011f3f;
+}
+
+.box{
+    
+    justify-content: center;
+    display: grid;
+    grid-template-rows: 1fr 1fr ;
+}
+
+.box .card{
+    height: 200px;
+    width: 200px;
+    border-radius: 20%;
+    border: 10px solid black;
+    margin: 25px;
+    padding:0;
+    
+}
+.green{
+    background-color: green;
+}
+
+.red{
+    background-color: red;
+}
+
+.yellow{
+    background-color: yellow;
+}
+
+.blue{
+    background-color: blue;
+}
+
+.pressed {
+  box-shadow: 0 0 20px white;
+  background-color: grey;
+}
+
+.game-over {
+  background-color: red;
+  opacity: 0.8;
+}
